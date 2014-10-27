@@ -6,17 +6,25 @@ Noting that the current datasets on bicycle crashes in San Francisco lacks sever
 
 The cycling community is known for its engagement and strong opinions, and we are building this with the expectation that members of this group will give their time to providing datasets in order to support efforts to better local services. 
 
-For an initial, immediate MVP, we have the following goal:
+For an initial, immediate MVP, we have the following parallel goals:
 
-Build Flask framework as backend
-Generate a user survey which will collect relevant data
-Store the data
-Interpret data using Python and R
-Query the data 
-Create a dashboard which will visualize the data along user-selected pivots
-Provide user interface which allows queries along various pivot points
+Collect Data
+Create a survey for collecting data using Limesurvey. Limesurvey is a full app with an api:
+https://www.limesurvey.org/en/
+Reach out to local cycling community to generate data
+
+
+Display data
+Build Flask framework as backend: Becka is repurposing some old code for this  
+Collect data from SFGov and other sources: see links below
+Interpret data using Python and R: Thomas is working on weather and parking data 
+Display dummy data as proof of concept to incentivize people to fill out survey: David has done this
+Create a dashboard which will visualize the data along user-selected pivots: we will be using Tilmill and Contour:
+https://www.mapbox.com/tilemill/
+http://forio.com/contour/gallery.html
 Deploy app so it is accessible online
-Reach out to local cycling community for data
+
+
 
 Ultimately, we'd like to be able to extend the app based on internal team ideas and external community needs. We want a better trip planner which will take accident frequency into account as well as hills and cycling route, building on top of the Bikesy capabilities.  We also want to be able to analyze bike theft frequency against other factors, like overall crime rate and access to designated bike parking.  
 
