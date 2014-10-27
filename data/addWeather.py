@@ -4,7 +4,6 @@ def addWeather(data):
 	import datetime
 	import json
 	import urllib2
-	cityName = "San Francisco, USA"
 
 	print len(data)
 
