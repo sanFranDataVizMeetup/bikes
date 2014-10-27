@@ -1,0 +1,106 @@
+{
+   "city":"San Francisco",
+   "accidents":[
+      {
+         "lat":37.7726483,
+         "severity":"u'INJURY",
+         "street1":"11th St",
+         "street2":"Kissling St",
+         "image_id":0,
+         "year":"2012",
+         "date":"u'20120409",
+         "lng":-122.4150145
+      },
+      {
+         "lat":37.7724134,
+         "severity":"u'INJURY",
+         "street1":"11th St",
+         "street2":"Market",
+         "image_id":1,
+         "year":"2012",
+         "date":"u'20120419",
+         "lng":-122.4147158
+      },
+      {
+         "lat":37.7732078,
+         "severity":"u'INJURY",
+         "street1":"12th Av",
+         "street2":"Fulton St",
+         "image_id":2,
+         "year":"2012",
+         "date":"u'20120313",
+         "lng":-122.4701694
+      },
+      {
+         "lat":37.7709294,
+         "severity":"u'INJURY",
+         "street1":"12th St",
+         "street2":"Folsom St",
+         "image_id":3,
+         "year":"2012",
+         "date":"u'20120306",
+         "lng":-122.4150466
+      },
+      {
+         "lat":37.7696315,
+         "severity":"u'INJURY",
+         "street1":"13th St",
+         "street2":"Harrison St",
+         "image_id":4,
+         "year":"2012",
+         "date":"u'20120118",
+         "lng":-122.413332
+      },
+      {
+         "lat":37.7696315,
+         "severity":"u'INJURY",
+         "street1":"13th St",
+         "street2":"Harrison St",
+         "image_id":5,
+         "year":"2012",
+         "date":"u'20120130",
+         "lng":-122.413332
+      },
+      {
+         "lat":37.7697121,
+         "severity":"u'INJURY",
+         "street1":"13th St",
+         "street2":"Vanness",
+         "image_id":6,
+         "year":"2012",
+         "date":"u'20120509",
+         "lng":-122.4178256
+      },
+      {
+         "lat":37.7677354,
+         "severity":"u'INJURY",
+         "street1":"14th St",
+         "street2":"Church St",
+         "image_id":7,
+         "year":"2012",
+         "date":"u'20120206",
+         "lng":-122.4289483
+      },
+      {
+         "lat":37.7680039,
+         "severity":"u'INJURY",
+         "street1":"14th St",
+         "street2":"Guerrero St",
+         "image_id":8,
+         "year":"2012",
+         "date":"u'20120316",
+         "lng":-122.4244975
+      },
+      {
+         "lat":37.7679538,
+         "severity":"u'INJURY",
+         "street1":"14th St",
+         "street2":"Ramona Av",
+         "image_id":9,
+         "year":"2012",
+         "date":"u'20120218",
+         "lng":-122.4253988
+      }
+   ],
+   "source":"http://sf-police.org/"
+}
