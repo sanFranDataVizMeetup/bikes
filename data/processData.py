@@ -4,16 +4,19 @@ import sys
 import json
 
 from addDay import addDay
+from addWeather import addWeather
 
 def main():
 	# Read the bike accidents JSON file
 	jsonstr = open(sys.argv[1]).read()
 	data = json.loads(jsonstr)
 
-	accidents = data['accidents']
-
 	# Add the type of day
-	data['accidents'] = addDay(accidents)
+	data['accidents'] = addDay(data['accidents'])
+	data['accidents'] = addWeather(data['accidents'])
+
+	from pprint import pprint
+	pprint(data['accidents'])
 
 	jsonexport = json.dumps(data, sort_keys=True, indent=4, separators=(',', ': '))
 
