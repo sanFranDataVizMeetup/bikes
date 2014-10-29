@@ -1,0 +1,40 @@
+body {
+    background-image: url("../img/light-orange-background.jpg");
+ }
+
+div.navbar-header img {
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+  font-weight: bold;
+  font color: "#FFFF00";
+}
+
+.flash  {
+  background: #cee5F5;
+  padding: 0.5em;
+  border: 1px solid #aacbe2;
+}
+
+.ui-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.table {
+    font-size: small;
+}
+
+.footer {
+    display: block;
+    font-size: small;
+    vertical-align: center;
+}
+
+li.warning {
+    color: red;
+}
