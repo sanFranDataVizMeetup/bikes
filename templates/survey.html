@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% block body %}
+<html>
+  <body>
+
+    <h3>Bike Survey</h3>
+    <h5>Description</h5>
+
+    <form action="/survey" method="POST">
+      <div class="form-group" class="col-md-6">
+        <label>Date of incident:</label>
+        <input type="text" class="form-control" name="date_incident" placeholder="enter date of incident" id="datepicker" required></input>
+      </div>
+
+      <div class="form-group" class="col-md-2">
+        <label>Severity of injury: </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" name="injury_severity" id="severity" value="minor"> minor
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" name="injury_severity" id="severity" value="moderate"> moderate
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" name="injury_severity" id="severity" value="severe"> severe
+        </label>
+      </div>
+
+      <div class="form-group" class="col-md-2">
+        <label>Were you riding: </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" name="road_cond_slope" id="slope" value="uphill"> uphill
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" name="road_cond_slope" id="slope" value="downhill"> downhill
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" name="road_cond_slope" id="slope" value="level"> level
+        </label>
+      </div>
+
+      <div class="form-group" class="col-md-2">
+        <label>Were you on a bike path: </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" name="bike_path" id="bikepath" value="1"> yes
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" name="bike_path" id="bikepath" value="0"> on
+        </label>
+      </div>
+
+      <div class="form-group" class="col-md-2">
+        <label>Were you riding under the influence (e.g. alcohol): </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" name="riding_impaired" id="impaired" value="1"> yes
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" name="riding_impaired" id="impaired" value="0"> no
+        </label>
+      </div>
+
+      <div class="form-group" class="col-md-2">
+        <label>Comments:</label>
+        <textarea type="text" class="form-control" rows="3" name="comments" placeholder="enter additional details not captured above" ></textarea>
+      </div>
+
+      <div class="form-group">
+        <input type = "button" class="btn btn-default" value="Reset" onclick="this.form.reset()" />
+        <button type="submit" class="btn btn-success">Submit</button>
+      </div>
+    </form>
+
+    <script>
+      $(function() {
+        $( "#datepicker" ).datepicker();
+      });
+    </script>
+
+  </body>
+</html>
+{% endblock %}
