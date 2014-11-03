@@ -8,6 +8,15 @@ The cycling community is known for its engagement and strong opinions, and we ar
 
 For an initial, immediate MVP, we have the following parallel goals:
 
+Make use of available datasets, including the following: 
+json of reported bicycle crashes from 2012 
+weather data for the given dates
+shapefiles for sf bike paths
+
+
+Generate Fake Data:
+We're adding fields to the json set from 2012 and creating dashboards with them to demonstrate proof of concept. 
+
 Collect Data
 Create a survey for collecting data using Limesurvey. Limesurvey is a full app with an api:
 https://www.limesurvey.org/en/
